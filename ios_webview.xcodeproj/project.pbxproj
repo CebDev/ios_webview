@@ -44,6 +44,7 @@
 		6AC60A672A1F9B0E0096C507 /* ios_webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_webviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC60A6B2A1F9B0E0096C507 /* ios_webviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_webviewUITests.swift; sourceTree = "<group>"; };
 		6AC60A6D2A1F9B0E0096C507 /* ios_webviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_webviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AC60A7A2A20EDB40096C507 /* ios-webview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-webview-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		6AC60A4F2A1F9B0C0096C507 /* ios_webview */ = {
 			isa = PBXGroup;
 			children = (
+				6AC60A7A2A20EDB40096C507 /* ios-webview-Info.plist */,
 				6AC60A502A1F9B0C0096C507 /* ios_webviewApp.swift */,
 				6AC60A522A1F9B0C0096C507 /* ContentView.swift */,
 				6AC60A542A1F9B0D0096C507 /* Assets.xcassets */,
@@ -419,9 +421,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ios_webview/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-webview-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,9 +450,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ios_webview/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-webview-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
